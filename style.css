@@ -243,52 +243,158 @@ h5{
 }
    
 
+/*resposividade*/
+@media screen and (max-width: 768px) {
+   #menu {
+       visibility: hidden;
+   }
+   #logo{
+       padding-left: 40%;
+   }
+   #logo1{
+       padding-left: 45%;
+       padding-top: 0%;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-@media screen and (max-width: 800px) {
-    body{
-    
-    }
+   }
    #capa {
-       
-       height: 5%;
+       height: 100%;
+       background-repeat: no-repeat;
+       background-size: cover; /*cobrir todo espaço*/
        width: 100%;
-       padding-left: 30px;
-       
+   }
+   .saiba{
+       padding: 5% 5% 5% 5%;
+       font-size: 140%;
+   }
+   h1{
+       font-size: 400%;
+   }
+   h2{
+       font-size: 200%;
+   }
+  h3{
+      text-align: center;
+      font-size: 400%;
+      margin-top: -5%;
+    
+  }
+  h4{
+      font-size: 250%;
+      width: 180%;
+      text-align: center
+  }
+  p{
+      font-size: 200%;
+  }
+  #caixa1{
+     
+      height: 110%;
+      width: 204%;
+      display: block;
+      
 
+  }
+  iframe{
+      width: 80%;
+      height: 70%;
+      float: none;
+      padding-left: 0;
+  }
+  .conteudo{
+      display:block;
+    
+      
+  }
+  .video{
+      display: block;
+      text-align: center;
+      float: none;
+      height: 90%;
+  }
+  .texto1{
+     width: 180%;
+     text-align: center;
+     float: none;
+     padding-bottom: 30%;
+  }
+  .t1{
+      text-align: center;
+      padding-left: 70%;
+      padding-bottom: 5%;
+  }
+  #caixa2{
+      padding-top: 50%
+  }
+  .colunaseis{
+      display: block;
+      float: none;
+      width: 150%;
+      padding: 0 0 0 30%
+  }
+  .icone{
+      width: 25%;
+      height: 25%;
+  }
+  .t3{
+      text-align: center;
+      padding-left: 50%;
+      width: 100%
+  }
+  .sub{
+    width:200% ;
+}
+  .colunatres{
+      display: block;
+      float: none; 
+      text-align: center;
+      
+
+  }
+  #img2{
+      height: 90%;
+      width: 900%;
+      padding: 0 0 0 160%
+  }
+  .subtopico{
+      width: 900% ;
+      text-align: center;
+      padding-left: 190%;
+  }
+  .info{
+      width: 900%;
+      padding-left: 150%
+  }
+  .tit{
+      width: 100%;
+      padding-left: 30%
+  }
+.ult{
+    width:150%;
+    text-align: center;
+    padding-right: 25%;
+}
+.v2{
+    display: block;
+    float: none;
+    height: 1000%;
+    width: 126%;
+}
+footer{
+    width: 204%
+}
+.cred{
+    font-size: 130%;
+    padding-left: 15%;
+    text-align: center;
+}
+h5{
+    font-size: 150%;
+    text-align: center;
+    padding-right: 50%
+}
+.fim, .fim3, .fim2{
+    display: block;
+    float: none;
    
-    }
-    h1{
-        padding-top: -10%;
-        font-size: 200%;
-        text-align: center;
-        width: 100%;
-    }
-    h2{
-        
-    }
-    iframe{
-        width: 30%;
-    }
+    width: 200%;
 }
